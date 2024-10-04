@@ -60,7 +60,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation Drawer */}
         {mobileDrawerOpen && (
-          <div className="lg:hidden absolute top-16 left-0 w-full shadow-lg rounded-md py-4 bg-neutral-800">
+          <div className="lg:hidden absolute top-16 left-0 w-full shadow-lg rounded-md py-4 bg-neutral-900">
             <ul className="space-y-4 px-4">
               {navItems.map((item, index) => (
                 <li key={index}>
